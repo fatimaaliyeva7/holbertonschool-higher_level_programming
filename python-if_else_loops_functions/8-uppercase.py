@@ -2,8 +2,8 @@
 def uppercase(str):
     result = ""
     for c in str:
-        if 'a' <= c <= 'z':  # Check if the character is a lowercase letter
-            result += chr(ord(c) - 32)  # Convert the lowercase letter to uppercase
+        if 'a' <= c <= 'z':
+            result += chr(ord(c) - 32) 
         else:
-            result += c  # Keep other characters unchanged
-    print(result)  # Print the result
+            result += c
+    print(result)
