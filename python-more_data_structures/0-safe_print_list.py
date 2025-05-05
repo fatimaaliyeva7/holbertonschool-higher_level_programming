@@ -2,10 +2,10 @@
 def safe_print_list(my_list=[], x=0):
     count = 0
     try:
-        for i in range(x):  # x qədər elementi çap etməyə çalışırıq
-            print(my_list[i], end="")  # elementləri çap edirik
-            count += 1  # hər dəfə element çap olunanda sayğacı artırırıq
-    except IndexError:  # əgər listdə o qədər element yoxdursa, xətanı tuturuq
+        for i in range(x):
+            print(my_list[i], end="")
+            count += 1
+    except IndexError:
         pass
-    print()  # yeni sətir üçün
-    return count  # çap olunan elementlərin sayını geri qaytarırıq
+    print()
+return count
